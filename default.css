@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro');
+
+aside, article, section, header, footer, nav, html, body, p, h1, h2, h3, div, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #3f3f3f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    overflow: hidden;
+}
+
+#container {
+    width: 700px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#head {
+    color: #fff;
+    background-color: #000;
+    font-size: 46px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    width: 100%;
+}
+
+pre {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+.arrow {
+    position: absolute;
+    color: #3f3f3f;
+    font-size: 80px;
+    font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    top: 300px;
+    padding: 50px;
+}
+
+.arrow:hover {
+    color: #fff;
+    transition: .3s;
+}
+
+#backarrow {
+    padding-left: 20px;
+}
+
+#fwdarrow {
+    right: 0;
+    padding-right: 20px;
+}
