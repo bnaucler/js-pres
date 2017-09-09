@@ -16,7 +16,7 @@ if(prevpage == undefined)
     document.getElementById('backarrow').style.visibility = 'hidden';
 
 if(nextpage == undefined)
-    document.getElementById('fdwarrow').style.visibility = 'hidden';
+    document.getElementById('fwdarrow').style.visibility = 'hidden';
 
 function gopage(page) {
     if(page != undefined) window.location.href = page;
